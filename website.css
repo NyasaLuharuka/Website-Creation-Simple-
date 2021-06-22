@@ -1,1 +1,51 @@
+#airfood {
+    color: green;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+}
+
+#cold_air {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hot_air {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+#spicy_air {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: coral
+}
+
+#food {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorchid
+}
+
+body {
+    background-color: lightcyan;
+    //background-image: url("https://pbs.twimg.com/profile_images/1187230161625763840/kX7SOmHa_400x400.jpg");
+}
+
+#notmemes {
+  transform: rotate(45deg);
+  animation-name: notmemes;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  margin-right: 200px;
+}
+
+@keyframes notmemes {
+ /* percentage of animation duration */
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+
+
+
+
+
 
